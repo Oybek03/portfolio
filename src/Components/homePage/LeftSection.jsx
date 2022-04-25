@@ -9,7 +9,7 @@ class LeftSection extends React.Component {
     return (
       <div className="left_section-container">
         <div className="networks">
-          <h1 className="name">Plux</h1>
+          <h1 className="name">JOX</h1>
           <div className="network--icons">
             <i className="twitter icon"></i>
             <a href="https://github.com/Oybek03">
@@ -26,7 +26,7 @@ class LeftSection extends React.Component {
           </div>
         </div>
         <div className="left_section-titles">
-          <h1 className="title-header">I'm Plux Doe</h1>
+          <h1 className="title-header">I'm JOX Doe</h1>
           <div class="typing animate"></div>
           {/* <h2 className="second-title">I develop mobile apps</h2> */}
           <div className="description">
@@ -36,8 +36,12 @@ class LeftSection extends React.Component {
             </p>
           </div>
           <div className="buttons">
-            <button className="portfolio-btn">My Portfolio</button>
-            <button className="contact-btn">Contact Me</button>
+            <a href="#portfolio">
+              <button className="portfolio-btn">My Portfolio</button>
+            </a>
+            <a href="#contact">
+              <button className="contact-btn">Contact Me</button>
+            </a>
           </div>
         </div>
       </div>

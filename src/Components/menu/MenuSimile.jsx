@@ -1,15 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-class Menu extends React.Component {
+class MenuSimile extends React.Component {
   constructor(props) {
     super(props);
   }
-
   render() {
     return (
-      <div className="menu-container">
-        <div className="menu-section">
+      <div className="menu-container-simile ">
+        <div className="menu-section-simile">
           <ul>
             <li>
               <a href="#home">Home</a>
@@ -29,5 +28,4 @@ class Menu extends React.Component {
     );
   }
 }
-
-export default Menu;
+export default MenuSimile;

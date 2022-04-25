@@ -8,7 +8,9 @@ class RightSection extends React.Component {
   EventHandleTheme() {
     let body = document.querySelector("body").classList.toggle("body");
   }
-  EventHandleMenu() {
+   EventHandleMenu() {
+    document.querySelector(".menu-section-simile").classList.toggle("click");
+
     document.querySelector(".menu-container").classList.toggle("tushish");
     document.querySelector(".menu-yoqatish").classList.toggle("menu-yoqatish");
   }
